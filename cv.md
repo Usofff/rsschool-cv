@@ -28,6 +28,6 @@ function findShort(s){
 # 6. Experience
 temporary empty
 # 7. Education
-BSUIR(Munsk) 2019-2023 
+BSUIR(Minsk) 2019-2023 
 # 8. English level
 A2
