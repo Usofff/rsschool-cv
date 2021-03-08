@@ -55,18 +55,16 @@
             </h3>
             <pre>
                 <code>
-    function findShort(s){
-        let min;
-        let arr = s.split(' ');
-         min = arr[0].length;
-         arr.forEach(function(e) {
-             if (e.length <min)
-             {
-                 min=e.length;
-             }
-         });
-         return min;
-     }
+    module.exports = function calculateHanoi(disksNumber, turnsSpeed) {
+  let obj = {
+    turns : 0,
+    seconds : 0
+};
+obj.turns = Math.pow(2,disksNumber)-1;
+obj.seconds = obj.turns*3600/turnsSpeed;
+obj.seconds = Math.floor(obj.seconds);
+return obj;
+};
                 </code>
             </pre>
             <h3>Experience</h3>
