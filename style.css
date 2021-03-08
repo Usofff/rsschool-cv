@@ -18,6 +18,9 @@
     
     
 }
+.header h2{
+    font-size: 1.3em;
+}
 .header_content{
     z-index: 1;
 }
@@ -41,7 +44,7 @@ main{
 li p{
     padding-left: 25px;
 }
-h2{
+h3{
     margin-top:20px;
 }
 .main{
@@ -62,4 +65,11 @@ h2{
     position: absolute;
     bottom: 10px;
     right: 30px;
+}
+li{
+    margin-left: 25px;;
+}
+#avatar{
+    height: 300px;
+    width: 300px;
 }
