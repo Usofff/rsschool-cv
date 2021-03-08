@@ -11,16 +11,21 @@
 
 <body>
     <header class="header">
-        <img src='avatar.jpg' height="300 px" width="300 px" id="avatar">
+        <img id="avatar" src='avatar.jpg' id="avatar" alt="Avatar">
         <div class="name">
             <p>
-                <b>Ilya Usov</b>
+                <h2>Ilya Usov</h2>
             </p>
         </div>
         <div class="contacts">
-            <p><b>Contacts:</b></p>
-            <p>Phone: +375(29)592-94-73</p>
-            <p>E-mail: iusov41@gmal.com</p>
+            <p>
+                <h2>Contacts:</h2>
+            </p>
+            <ul>
+                <li>Phone: +375(29)592-94-73</li>
+                <li>E-mail: iusov41@gmal.com</li>
+            </ul>
+
 
 
         </div>
@@ -29,58 +34,60 @@
     <main>
 
         <div class="main">
-            <h2>Summury</h2>
+            <section>
+                <h3>Summury</h3>
             <p>
-                My goal is to pass these courses</br>
+                A student from Minsk. My goal is to pass these courses<br>
                 and find a job as а Frontend developer
             </p>
+            </section>
+            
+            <h3>Skills</h3>
+            <ul>
+                <li>Some practice in C++ for 1 year in University</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
 
-
-            <h2>Skills</h2>
-            Some practice in C++ for 1 year in University</br>
-            HTML</br>
-            CSS</br>
-            JS
-            <h2>Code exapmle</h2>
-            <p>
-
-                <pre>
-       function findShort(s){
-           let min;
-           let arr = s.split(' ');
-            min = arr[0].length;
-            arr.forEach(function(e) {
-                if (e.length < min)
-                {
-                    min=e.length;
-                }
-            });
-            return min;
-        }
+            <h3>
+                <mark>Code exapmle</mark>
+            </h3>
+            <pre>
+                <code>
+    function findShort(s){
+        let min;
+        let arr = s.split(' ');
+         min = arr[0].length;
+         arr.forEach(function(e) {
+             if (e.length < min)
+             {
+                 min=e.length;
+             }
+         });
+         return min;
+     }
+                </code>
             </pre>
-            </p>
-
-
-
-            <h2>Experience</h2>
+            <h3>Experience</h3>
             <p>NaN</p>
 
 
-            <h2>Education</h2>
+            <h3>Education</h3>
             <p>BSUiR, Faculty of infocommunication, 2019-2023</p>
 
 
-            <h2>English level</h2>
+            <h3>English level</h3>
             <p>
-                Now my English level is Pre-Intermediate
+                Now my English level is Pre-Intermediate.
             </p>
 
         </div>
     </main>
     <footer class="footer">
 
-        <a class="icon" href="https://github.com/Usofff" target="_blank"><img src="github_icon.jpg" height="100px"
-                width="100px"></a>
+        <a class="icon" href="https://github.com/Usofff" target="_blank"><img src="github_icon.jpg"
+                alt="github_icon"></a>
     </footer>
 </body>
 
